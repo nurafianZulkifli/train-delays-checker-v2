@@ -33,6 +33,7 @@ body {
   color: #858796;
   text-align: left;
   background-color: #fff;
+  padding-top: 2.2em;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -8727,4 +8728,27 @@ footer.sticky-footer .copyright {
 
 body.sidebar-toggled footer.sticky-footer {
   width: 100%;
+}
+
+
+/* TEMP */
+.alert {
+  background-color: #fbf3d1;
+  padding: 10px;
+  position:fixed; 
+  top: 0px; 
+  left: 0px; 
+  width: 100%;
+  z-index:9999; 
+  border-radius:0px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.alert a {
+  color: #d52a1a;
+}
+
+.alert a:hover {
+  color: #801c13;
 }
