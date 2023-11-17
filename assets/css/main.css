@@ -8752,3 +8752,9 @@ body.sidebar-toggled footer.sticky-footer {
 .alert a:hover {
   color: #801c13;
 }
+
+@media (max-width: 551px) {
+  body {
+    padding-top: 3.5em; 
+  }
+}
